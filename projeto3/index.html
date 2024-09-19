@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Milennium</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gupter:wght@400;500;700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top pt-4 " id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 info-title">Millennium</h1>
+            <button class="navbar-toggler"data-bs-toggle="collapse" data-bs-target="#menu-nav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-nav">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#conheça-a-loja" class="nav-link">
+                            <i class="bi bi-house-door me-2"></i>
+                            conheça a loja
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#vip" class="nav-link">
+                            <i class="bi bi-stars me-2"></i>
+                            Millennium vip
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#eventos" class="nav-link">
+                            <i class="bi bi-calendar-check me-2"></i>
+                            Eventos Milennium
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#contatos"class="nav-link">
+                            <i class="bi bi-chat-left-dots me-2"></i>
+                            Contatos
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabeçalho" data-bs-smooth-scroll="true">
+        <section id="conheça-a-loja">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel_imgs">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="2000">
+                        <img src="./imgs/carousel_1.webp" alt="Loja retro">
+                    </div>
+                    <div class="carousel-item"data-bs-interval="2000">
+                        <img src="./imgs/carousel_2.jpg" alt="jogos antigos">
+                    </div>
+                    <div class="carousel-item"data-bs-interval="2000">
+                        <img src="./imgs/carousel_3.webp" alt="espaco games">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel_imgs" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel_imgs" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel_imgs" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel_imgs" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel_imgs" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <div class="p-5">
+                <div class="container">
+                    <div class="row">
+                    <div class="col-md-4">
+                        <img src="./imgs/fachada_loja.jpg" class="d-block w-100 rounded" alt="Foto faxada loja">
+                    </div>
+                    <div class="col-md-8 mt-3">
+                        <h2 class="info-title">Sobre a <Span class="text_color">Millennium</Span></h2>
+                        <p>
+                            conheça a Millennium a sua rede geek mais famosa da cidade, atuamos no mercado desde de 1996,trazendo a experiencia e diversão ao publico!
+                        </p>
+                        <h3 class="info-title">Nossos <span class="text_color">espaços</span></h3>
+                        <p>
+                            Contamos com diversos espaços e produtos, confira alguns deles:
+                        </p>
+                        <ul>
+                            <li>jogos para videogames retro</li>
+                            <li>Actions figures dos mais atuais aos MILENARES</li>
+                            <li>HQs/Mangàs</li>
+                            <li>Espaço arcade</li>
+                            <li>Arena <span class="text_color">Milennium</span></li>
+                        </ul>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="vip" class="pt-4 mb-4">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">
+                        <span class="text_vip">Milennium vip</span>
+                        <i class="bi bi-stars"></i>
+                    </h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-2">
+                        <aside>
+                            <nav class="nav nav-pills flex-colum nav-vip">
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#bonos" class="fw-bold text-start nav-link text_color active">Bonificações <span class="text_vip">VIP</span></button>
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#assinatura" class="fw-bold text-start nav-link text_color">Assinaturas <span class="text_vip">VIP</span></button>
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#cadastro" class="fw-bold text-start nav-link text_color">Vire <span class="text_vip">VIP</span></button>
+                            </nav>
+                        </aside>
+                    </div>
+                    <div class="col-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="bonos">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imgs/box-nerd.jpg" alt="caixa nerd mensal">
+                                        <h4 class=" fw-bold mt-3">Box <Span class="text_color">Vip Milennium</Span></h4>
+                                        <p>
+                                            Com o vip ativo voçê recebe todo mes uma box tematica no seu endereço,com produtos estimato em R$:249,99 reais! 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imgs/acesso-vip.jpg" alt="acesso vip">
+                                        <h4 class=" fw-bold mt-3">acesso<Span class="text_color">Vip Milennium</Span></h4>
+                                        <p>
+                                            Tenha acesso vip em qualquer evento Milennium,o cartão vip chega no seu endereço com suas ioformações vip, e voçê tera acesso vip e cobertura total no evento!
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imgs/desconto.jpg" alt="desconto">
+                                        <h4 class=" fw-bold mt-3">Desconto <Span class="text_color">Vip Milennium</Span></h4>
+                                        <p>
+                                            Possuia ate 45% de desconto vip em qualquer compra na Millennium!!!!!
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imgs/sorteio-ps5.jpg" alt="Sorteio">
+                                        <h4 class=" fw-bold mt-3">Sorteio <Span class="text_color">Vip Milennium</Span></h4>
+                                        <p>
+                                            A Milennium proporciona ao seus vips todo mes um sorteio de ps5, venha ter a chance voçê tambem!!!
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="assinatura">
+                                <div class="row">
+                                    <div class="col-md-8">
+                                        <img class="d-block w-100 rounded m-2" src="./imgs/vip-mile.jpg" alt="vipe arcade">
+                                    </div>
+                                    <div class="col-md-3 text-center">
+                                        <h2 class="section-title">Conheça as assinaturas da Milennium</h2>
+                                        <p>Temos planos: </p>
+                                        <h3 class="section-title">Semanal</h3>
+                                        <ul>
+                                            <li>R$:25,90</li>
+                                            <a href="#" class="btn btn-success">Assinar</a>
+                                        </ul>
+                                        <h3 class="section-title">Mensal</h3>
+                                        <ul>
+                                            <li>R$:250,90</li>
+                                            <a href="#" class="btn btn-success">Assinar</a>
+                                        </ul>
+                                        <h3 class="section-title">Anual</h3>
+                                        <ul>
+                                            <li>R$:470,90</li>
+                                            <a href="#" class="btn btn-success">Assinar</a>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="cadastro">
+                                <div class="row">
+                                    <div class="col-md-10">
+                                        <H2>cadastro <span class="text-color">Vip Milennium</span></H2>
+                                        <form>
+                                            <label class="form-label" form="nome">Seu nome</label>
+                                            <input class="form-control" type="text" id="nome">
+                                            <label class="form-label" form="email">Seu email</label>
+                                            <input class="form-control" type="email" id="emails">
+                                            <label class="form-label" form="tel">Seu telefone</label>
+                                            <input class="form-control" type="tel" id="tel">
+                                            <button class="btn btn-success">enviar</button>
+                                        </form>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <div class="row">
+                                            <h5 class="section-title">Lembrete</h5>
+                                            <p>Apos prencher o cadastro a finalização e escolha do plano sera prosseguida via email</p>
+                                            <i class="bi bi-emoji-smile"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="eventos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Proximos eventos <span class="text_color">Milennium</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="./imgs/competicao_stret_fighter.jpg" alt="competição game" class="d-block w-100 rounded">
+                        <h3 class="section-title">
+                            Campeonato de street fighter
+                            <i class="bi bi-trophy"></i>
+                        </h3>
+                        <p>
+                            venha participar do Campeonato de street fighter,campeonato com chaveamento, inscriçóes no valor de R$:30,00
+                        </p>
+                        <h4 class="section-title">
+                            premiações
+                        </h3>
+                        <p>Primeiro lugar: R$:7.000,00</p>
+                        <p>Primeiro segundo: R$:4.500,00</p>
+                        <p>Primeiro terceiro: R$:2.500,00</p>
+                        <a href="#" class="btn btn-success">Inscrever-se</a>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./imgs/corrida_kart.jpg" alt="corrida kart" class="d-block w-100 rounded">
+                        <h3 class="section-title">
+                            corrida de mini-kart <span class="text-color">Milennium vip</span>
+                            <i class="bi bi-car-front"></i>
+                        </h3>
+                        <p>
+                            Venha participar da nossa corrida de kart tematica na nova arena <span class="text_color">Milennium</span>
+                        </p>
+                        <h4 class="section-title">
+                            Sobre o evento
+                        </h3>
+                        <ul>
+                            <li>Obrigatorio ir fantasiado no tema de mario kart</li>
+                            <li>Evento fechado para 10 pessoas por corrida, sendo 4 corridas no evento</li>
+                            <li>Evento exclusivo para <Span class="text-color">Milennium</Span>vip</li>
+                            <li>Os melhores corredores seram escalados para a grande corrida...<span class="text-color">Aguardem o proximo evento vip</span></li>
+                        </ul>
+                        <a href="#" class="btn btn-success">Saiba mais</a>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./imgs/evento_cosplay.jpg" alt="cosplay evento" class="d-block w-100 rounded">
+                        <h3 class="section-title">
+                            Desfile de cosplay
+                            <i class="bi bi-camera2"></i>
+                        </h3>
+                        <p>
+                            venha participar do Desfile de cosplay, o primeiro evento cosplay <span class="text-color">Milennium</span> aberto para todo o publico na arena <span class="text-color">Milennium</span>
+                        </p>
+                        <h4 class="section-title">
+                            premiações
+                        </h3>
+                        <p>Primeiro lugar: R$:1.500,00 + 3 meses Vip gratuito</p>
+                        <p>Primeiro segundo: R$:1.000,00 + 2 meses Vip gratuito</p>
+                        <p>Primeiro terceiro: R$:500,00 + 1 mes Vip gratuito</p>
+                        <a href="#" class="btn btn-success">Saiba mais</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contatos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h4 class="section-title text-center"> Preencha o formulario para contato</h4>
+                </div>
+                <div class="row">
+                    <div class="col-md-8 mb-3">
+                        <form>
+                            <div class="div">
+                                <label class="form-label fw-bold text_color" form="nome">Digite seu nome</label>
+                                <input class="form-control" type="text" id="nome"required>
+                            </div>
+                            <div class="div">
+                                <label class="form-label fw-bold text_color" form="email">Digite seu email</label>
+                                <input class="form-control" type="email" id="emails"required> 
+                            </div>
+                            <div class="div">
+                                <label class="form-label fw-bold text_color" form="tel">Digite seu telefone (opcional)</label>
+                                <input class="form-control" type="tel" id="tel">
+                            </div>
+                            <div class="div">
+                                <label for="mensagem" class="form-labeld  fw-bold text_color">Deixe sua mensagem</label>
+                                <textarea class="form-control" id=mensagem required></textarea>
+                            </div>
+                            <button type="submit" class="btn">enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="row">
+                            <h3 class="section-title ">Redes sociais</h3>
+                            <ul class="link">
+                                <li class="fs-3">
+                                    <a href="#">
+                                        <i class="bi bi-instagram"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-3 ms-2 me-1">
+                                    <a href="#">
+                                        <i class="bi bi-facebook"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-3 ms-2 me-1">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-3">
+                                    <a href="#">
+                                        <i class="bi bi-discord"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>                   
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
