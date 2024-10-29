@@ -110,7 +110,7 @@
 86C:\FrontEnd_ebac\Exercicio_lane_page\node_modules\@parcel\core\test\AssetGraph.test.js133746279094022325 0
 121C:\FrontEnd_ebac\Exercicio_lane_page\node_modules\@parcel\optimizer-svgo\node_modules\svgo\plugins\removeScriptElement.js133746279100699943 0
 104C:\FrontEnd_ebac\Exercicio_lane_page\node_modules\csso\node_modules\css-tree\lib\syntax\node\Function.js133746279119014605 0
-58C:\FrontEnd_ebac\Exercicio_lane_page\src\styles\_hero.scss133746396834684616 0
+58C:\FrontEnd_ebac\Exercicio_lane_page\src\styles\_hero.scss133746397452564881 0
 70C:\FrontEnd_ebac\Exercicio_lane_page\node_modules\safe-buffer\index.js133746279050717530 0
 83C:\FrontEnd_ebac\Exercicio_lane_page\node_modules\source-map\dist\source-map.min.js133746279091026208 0
 88C:\FrontEnd_ebac\Exercicio_lane_page\node_modules\caniuse-lite\data\features\webauthn.js133746279165123679 0
