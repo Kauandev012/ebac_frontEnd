@@ -1,9 +1,28 @@
 .event{
     padding: 80px 0;
+    color: #fff;
 
+    &--djFesta{
+        background-image: linear-gradient(#0d349c,#081f63);
+    }
+
+    &--salao{
+        background-image: linear-gradient(#081f63,#4613bd);
+    }
+
+    &--roupaTematica{
+        background-image: linear-gradient(#4613bd,#6a11bd);
+    }
+
+    &--image-left{
+        .container{
+            flex-direction: row-reverse;
+        }
+    }
 
     .container{
         display: flex;
+        gap: 40px;
     }
 
     &__image{
@@ -11,8 +30,6 @@
     }
 
     &__detail{
-        margin-right: 40px;
-
         &__title{
             font-size: 18px;    
             font-weight: bold;
