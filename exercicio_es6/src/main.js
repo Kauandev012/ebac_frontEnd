@@ -7,4 +7,3 @@ function filtraAlunos(alunos){
 const alunosMediaAlta = alunos.filter(filtraAlunos);
 
 
-console.log(alunosMediaAlta);
