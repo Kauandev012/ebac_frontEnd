@@ -6,10 +6,10 @@ const props = defineProps(["getNumber1","getNumber1","getOperador","resultado"])
     <form class="text-center">
         <div class="row">
             <div class="col-6">
-                <input type="number" placeholder="Digite um valor" class="form-control" @keyup="props.getNumber1"/>
+                <input required type="number" placeholder="Digite um valor" class="form-control" @keyup="props.getNumber1"/>
             </div>
             <div class="col-6">
-                <input type="number" placeholder="Digite um valor" class="form-control" @keyup="props.getNumber1"/>
+                <input required type="number" placeholder="Digite um valor" class="form-control" @keyup="props.getNumber1"/>
             </div>
         </div>
         <div class="col-md-3 mb-5 text-center">
@@ -22,7 +22,12 @@ const props = defineProps(["getNumber1","getNumber1","getOperador","resultado"])
         </div>
         <div class="row">
             <div class="col">
-                <h2 class="black-text">Resultado</h2>
+                <h3 class="black-text">Resultado</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <h2 class="black-text fw-bold ps-2">{{ props.resultado }}</h2>
             </div>
         </div>
     </form>
