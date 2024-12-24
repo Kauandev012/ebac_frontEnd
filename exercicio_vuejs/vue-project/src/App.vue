@@ -8,7 +8,7 @@ const estado = reactive({
   numero1: 0,
   numero2: 0,
   resultado :0,
-  operador : 'somar',
+  operador : "",
 })
 
 function getNumber1(evento){
@@ -34,7 +34,7 @@ function getOperador(evento){
   getOperacao();
 }
 
-const getOperacao =() =>{
+const getOperacao =() => {
   switch(estado.operador){
     case 'subtrair':
       return estado.resultado = (estado.numero1 - estado.numero2);
