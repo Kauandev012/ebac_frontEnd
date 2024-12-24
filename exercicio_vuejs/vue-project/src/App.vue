@@ -34,7 +34,7 @@ function getOperador(evento){
   getOperacao();
 }
 
-const getOperacao =() =>{
+const getOperacao =() => {
   switch(estado.operador){
     case 'subtrair':
       return estado.resultado = (estado.numero1 - estado.numero2);
