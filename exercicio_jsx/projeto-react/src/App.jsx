@@ -1,10 +1,12 @@
-import formulario from "./formulario";
+import Formulario from "./formulario/index.jsx";
+import tabelaIMC from "./tabela/index.tabela.jsx";
 
 function App() {
   return(
-    <>
-      <formulario />
-    </>
+    <div>
+      <Formulario/>
+      <tabelaIMC/>
+    </div>
   )
 }
 
