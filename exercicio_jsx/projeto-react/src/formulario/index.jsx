@@ -1,8 +1,8 @@
 import {useState} from "react"
 
-const formulario = () => {
-    let [altura, setAltura] = useState(0);
-    let [peso, setPeso] = useState(0);
+const Formulario = () => {
+    Const[altura, setAltura] = useState(0);
+    Const[peso, setPeso] = useState(0);
 
 
     return(
@@ -14,4 +14,4 @@ const formulario = () => {
     )
 }
 
-export default formulario 
+export default Formulario
