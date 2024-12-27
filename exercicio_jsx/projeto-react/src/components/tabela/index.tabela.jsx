@@ -1,4 +1,4 @@
-const tabelaIMC=() => {
+const TabelaIMC=() => {
     return(
         <table>
             <thead>
@@ -41,4 +41,4 @@ const tabelaIMC=() => {
     )
 }
 
-export default tabelaIMC
+export default TabelaIMC;
