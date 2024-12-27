@@ -14,4 +14,4 @@ const Formulario = () => {
     )
 }
 
-export default Formulario
+export default Formulario;
