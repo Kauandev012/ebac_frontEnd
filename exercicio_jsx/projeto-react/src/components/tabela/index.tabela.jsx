@@ -45,4 +45,4 @@ const Tabela = ({imc}) => {
         )
     }
 
-export default TabelaIMC;
+export default Tabela;
