@@ -27,7 +27,7 @@ const props = defineProps(["getNumber1","getNumber1","getOperador","resultado"])
         </div>
         <div class="row">
             <div class="col">
-                <h2 class="black-text fw-bold ps-2">{{ props.resultado }}</h2>
+                <h2 class="black-text">{{props.resultado}}</h2>
             </div>
         </div>
     </form>
