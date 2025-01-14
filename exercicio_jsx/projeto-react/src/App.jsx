@@ -70,7 +70,6 @@ function App() {
   return (
     <>
       <div>
-        <Cabecalho />
         <Formulario clean={clean} calculaOIMC={calculaIMC} setAAltura={e => setAltura(e.target.value)} setOPeso={e => setPeso(e.target.value)}/>
         <Tabela imc={ IMC }/>
       </div>
