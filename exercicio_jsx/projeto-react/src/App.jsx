@@ -3,6 +3,9 @@ import { useState } from "react";
 import Formulario from "./components/formulario/index_formulario.jsx";
 import Tabela from "./components/tabela/index.tabela.jsx";
 
+import "./global.css"
+
+
 function App() {
   const [IMC, setIMC] = useState('');
   const [peso, setPeso] = useState(0);
@@ -69,7 +72,7 @@ function App() {
 
   return (
     <>
-      <div>
+      <div className="container">
         <Formulario clean={clean} calculaOIMC={calculaIMC} setAAltura={e => setAltura(e.target.value)} setOPeso={e => setPeso(e.target.value)}/>
         <Tabela imc={ IMC }/>
       </div>

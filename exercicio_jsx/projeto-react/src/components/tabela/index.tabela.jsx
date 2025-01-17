@@ -1,10 +1,13 @@
+import styles from './tabela.module.css';
+
+
 const Tabela = ({imc}) => {
     return (
         <>
-            <table className={styles.table__imc} cellSpacing={0} >
+            <table className={styles.table__imc}  cellSpacing={0} >
             <thead>
                 <tr>
-                    <th colSpan={3}>Veja a interpretação do IMC</th>
+                    <th colSpan={3}>Tabela de IMC</th>
                 </tr>
             </thead>
             <tbody>
