@@ -1,19 +1,19 @@
 <script setup>
-const props = defineProps(["getNumber1","getNumber1","getOperador","resultado"]);
+const props = defineProps(["getNumber1","getNumber2","getOperador","resultado"]);
 </script>
 
 <template>
     <form class="text-center">
         <div class="row">
             <div class="col-6">
-                <input required type="number" placeholder="Digite um valor" class="form-control" @keyup="props.getNumber1"/>
+                <input required type="number" placeholder="0" class="form-control" @keyup="props.getNumber1"/>
             </div>
             <div class="col-6">
-                <input required type="number" placeholder="Digite um valor" class="form-control" @keyup="props.getNumber1"/>
+                <input required type="number" placeholder="0" class="form-control" @keyup="props.getNumber2"/>
             </div>
         </div>
         <div class="col-md-3 mb-5 text-center">
-            <select class="form-control text-center">
+            <select class="form-control text-center" @change="props.getOperador">
                 <option class="subtrair text-center" value="subtrair"><p>subtrair</p></option>
                 <option class="somar text-center" value="somar"><p>somar</p></option>
                 <option class="dividir text-center" value="dividir"><p>dividir</p></option>
@@ -32,6 +32,8 @@ const props = defineProps(["getNumber1","getNumber1","getOperador","resultado"])
         </div>
     </form>
 </template>
+
+
 <style escoped>
 .black-text{    
     color:#000;
