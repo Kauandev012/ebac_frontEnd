@@ -38,7 +38,7 @@ const getOperacao =() => {
   switch(estado.operador){
     case 'subtrair':
       return estado.resultado = (estado.numero1 - estado.numero2);
-    case 'sumar':
+    case 'somar':
     return estado.resultado = (estado.numero1 + estado.numero2);
     case 'dividir':
       if(estado.numero2 ==0){
