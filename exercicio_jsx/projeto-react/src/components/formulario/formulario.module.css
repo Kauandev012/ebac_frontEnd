@@ -8,14 +8,6 @@
     width:200px;
 }
 
-.Span{
-    display:block;
-    font-weight: bold;
-    color:var(--cortext);
-    padding-top:1px;
-    padding-bottom: 12px;
-}
-
 .altura__block label,
 .peso__block label{
     display: block;
