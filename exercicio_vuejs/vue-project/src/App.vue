@@ -8,7 +8,7 @@ const estado = reactive({
   numero1: 0,
   numero2: 0,
   resultado :0,
-  operador : "",
+  operador : 'somar',
 })
 
 function getNumber1(evento){
@@ -30,7 +30,7 @@ function getNumber2(evento){
 }
 
 function getOperador(evento){
-  estado.operador = evento.tagert.value;
+  estado.operador =evento.target.value;
   getOperacao();
 }
 

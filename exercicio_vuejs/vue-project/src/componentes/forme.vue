@@ -14,10 +14,10 @@ const props = defineProps(["getNumber1","getNumber2","getOperador","resultado"])
         </div>
         <div class="col-md-3 mb-5 text-center">
             <select class="form-control text-center" @change="props.getOperador">
-                <option class="subtrair text-center" value="subtrair"><p>subtrair</p></option>
-                <option class="somar text-center" value="somar"><p>somar</p></option>
-                <option class="dividir text-center" value="dividir"><p>dividir</p></option>
-                <option class="multiplicar text-center" value="multiplicar"><p>multiplicar</p></option>
+                <option class="subtrair text-center" value="subtrair">Subtrair</option>
+                <option class="somar text-center" selected value="somar">Somar</option>
+                <option class="dividir text-center" value="dividir">Dividir</option>
+                <option class="multiplicar text-center" value="multiplicar">multiplicar</option>
             </select>
         </div>
         <div class="row">
