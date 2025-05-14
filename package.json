@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "cypress": "^12.6.0"
+  },
+
+  "scripts" : {
+    "cypress": "cypress",
+    "test": "echoa \"Error: no test specified\" && exit 1 "
+  }
+
+}
