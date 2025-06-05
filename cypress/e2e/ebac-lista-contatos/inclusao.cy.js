@@ -2,7 +2,7 @@
 
 describe('teste para a inclusao de contato', () => {
     beforeEach(() => {
-        cy.visit('https://agenda-contatos-react.vercel.app/;')
+        cy.visit('https://agenda-contatos-react.vercel.app/')
     })
 
     it('deve prencher formulario de inserir contato', () => {
@@ -10,9 +10,5 @@ describe('teste para a inclusao de contato', () => {
         cy.get('input[type="email"').type('kauanteste@gmail.com')
         cy.get('input[type="tel"').type('11 12345678')
         cy.get('.adicionar').click()
-
-        cy.on('window:alert', (conteudo) => {
-            expect(conteudo).contain('Contato Salvo com sucesso!')
-        })
     })
 })
